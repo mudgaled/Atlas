@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/import-ventures-marketplace', {
+    const conn = await mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://shreyajain_db_user:VhHotQCdqnhsW6SI@cluster0.xotguvt.mongodb.net/?appName=Cluster0', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
