@@ -46,7 +46,7 @@ jobs:
       - name: Build frontend
         run: |
           cd frontend
-          npm start
+          npm run build
           
       - name: Setup Pages
         uses: actions/configure-pages@v5
